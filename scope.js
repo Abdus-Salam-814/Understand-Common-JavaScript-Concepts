@@ -19,14 +19,18 @@ function add(a, b){
     console.log(a, b);
     if(b> 5){
         const sum = 25 + a + b;
-    console.log(sum);
+    
+
+    }else{
+        const sum = 5 + a + b;
+        var current = sum;
 
     }
-    console.log(sum);
+    console.log(current);
 
     return total;
 }
 
 
-const result = add(5, 7);
+const result = add(5, 9);
 console.log(result);
